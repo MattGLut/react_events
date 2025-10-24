@@ -10,7 +10,7 @@ function ModeToggler() {
 
   return (
     <div>
-      {darkModeOn ? <h1>Dark mode is on</h1> : <h1>Light mode is on</h1>}
+      {darkModeOn ? <h1>Dark mode is on!</h1> : <h1>Light mode is on!</h1>}
       <Btn clickHandler={clickHandler} />
     </div>
   )
